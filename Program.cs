@@ -89,10 +89,16 @@ class GFG
         Console.WriteLine("Answer2: \n");
         printList(list2);
 
+
+
         // TheSternBrokawTree(2);
 
         TheSternRrokawTree tree = new TheSternRrokawTree();
         Results results;
+
+
+        // tests example
+        
 
         results = tree.Approximate(3.14159265359, 6);
         results.Display(6);
@@ -108,5 +114,6 @@ class GFG
         tree.Reset();
         results = tree.Approximate(-5.67, 6);
         results.Display(6);
+
     }
 }
